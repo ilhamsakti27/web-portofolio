@@ -1,6 +1,7 @@
 <template>
   <NavBar class="fixed top-0 left-0 w-full bg-light-mint "></NavBar>
-  <div class="flex flex-col-reverse lg:flex-row justify-center items-center text-center sm:px-10 md:px-12 mt-20 mb-8" id="about-div">
+  <!-- <div class="flex flex-col-reverse lg:flex-row justify-center items-center text-center sm:px-10 md:px-12 mt-20 mb-8" id="about-div"> -->
+  <div class="flex flex-col-reverse lg:flex-row justify-center items-center text-center sm:px-10 md:px-12 mt-20 mb-8 md:mt-0 md:mb-0 md:h-screen" id="about-div">
     <!-- about section -->
     <div class="mt-5 md:mt-2 lg:text-left md:w-10/12" id="section_about">
       <p class="font-bold text-3xl md:text-6xl text-dark-gray md:mb-5" id="title_about-me">About me</p>
