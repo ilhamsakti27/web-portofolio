@@ -12,6 +12,11 @@ export default {
     return {
       userData
     }
+  },
+  computed: {
+    sortedProjects() {
+      return this.userData.projects.slice().sort((a, b) => new Date(b.date) - new Date(a.date));
+    }
   }
 }
 </script>
@@ -21,7 +26,7 @@ export default {
     <NavBar class="fixed top-0 left-0 w-full bg-light-mint"></NavBar>  
     <div class="mb-20 lg:mb-16"></div>
     <CardProject 
-      v-for="project in userData.projects"
+      v-for="project in sortedProjects"
       :key="project.id"
       :project="project"
       class="mx-2 sm:mx-6 md:mx-12"

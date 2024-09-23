@@ -14,7 +14,7 @@ export const userData = {
     email: "mailto:ilhamsakti227@gmail.com"
   },
   summary: ["I'm a Software Engineer and IoT Engineer with a passion for building innovative solutions that connect the physical and digital worlds. With strong expertise in developing software systems, designing IoT infrastructures, and automating processes, I thrive in creating efficient, scalable technologies. In addition to my core focus, I am also skilled in database management, networking, and cybersecurity, ensuring secure and optimized performance across projects.","I aim to contribute my skills in software development, IoT, and infrastructure security to projects that push the boundaries of innovation, while maintaining a high standard of quality and performance."],
-  linkResume: "https://docs.google.com/document/d/1Dklv8NrzwECUDCDwEXs7ub2_xAAw7a-oin61uCn88qU/edit?usp=sharing",
+  linkResume: "https://docs.google.com/document/d/1uKQ_KKAaW8HyL9hE8__hqJzzjwFBJth37mvTiDDw6ks/edit?usp=sharing",
   projects: [
     {
       id: 1,
@@ -68,8 +68,8 @@ export const userData = {
       id: 4,
       imageURL: "https://raw.githubusercontent.com/ilhamsakti27/Organization-Data-Job-Description-Automation/main/images/IBM%20RPA%20Studio.png?token=GHSAT0AAAAAACOXGHGOY2LVUVHWLVU2MYH6ZXQC5IQ",
       nameProject: "Organization Data Job Description Automation",
-      company: "ICStar Hackathon 2023",
-      description: "Create job description automation with ChatGPT and Bard to find job types and validate job descriptions according to data with Robotic Process Automation (RPA).",
+      company: "ICStar Hackathon 2023 (Indosat Ooredoo Hutchison)",
+      description: "This project involved developing an automation system to generate and validate job descriptions by leveraging Robotic Process Automation (RPA) integrated with AI models like ChatGPT and Bard. The system was designed to identify job types and verify descriptions based on input data. As the team leader, I coordinated tasks and ensured seamless collaboration among team members to deliver the solution.",
       date: "2023-10-26T00:00:00.000Z",
       techStack: ["IBM RPA Studio", "ChatGPT", "Bard", "Excel", "Microsoft Edge"],
       typeProject: ["Robotic Process Automation (RPA)"],
@@ -85,10 +85,10 @@ export const userData = {
       imageURL: "https://raw.githubusercontent.com/ilhamsakti27/smart-pju/main/images/Rangkaian%20Smart%20PJU%20-%20Satu%20Unit%20PJU.png",
       nameProject: "Smart Public Street Lighting (Smart PJU)",
       company: "",
-      description: "Make public street lighting independent, able to communicate between PJUs, and can be monitored. Smart PJU uses Arduino, solar panels, batteries, current sensors, voltage sensors, MQTT, and Blynk.",
+      description: "Implementing a communication protocol on smart public street lighting (PJU) using Arduino, solar panels, batteries, routers, MQTT protocols, and Blynk as monitoring each PJU.",
       date: "2023-07-12T00:00:00.000Z",
       techStack: ["Arduino","MQTT", "Blynk"],
-      typeProject: ["Internet of Things"],
+      typeProject: ["Internet of Things (IoT)"],
       linkDocumentation: {
         drive: "",
         github: "https://github.com/ilhamsakti27/smart-pju.git",
@@ -101,10 +101,10 @@ export const userData = {
       imageURL: "https://raw.githubusercontent.com/ilhamsakti27/Power-Monitor/main/power-monitor-2.jpeg",
       nameProject: "Power Monitor",
       company: "Smart City and Cyber Security Laboratory, ITS Information Technology Department",
-      description: "The goal of this project is to make a device to monitor power or electricity usage in a room. To make this tool requires ESP32 as a microcontroller, PZEM-04T sensor to detect energy, frequency, power, power factor, and voltage, current sensor to calculate the current used. Home Assistant is used as a dashboard to display current, energy, frequency, power, power factor, and voltage variables. Home Assistant is installed on the microcomputer. ESP Home is used to integrate the ESP32 microcontroller with the Home Assistant. My contributions to this project are from assembling tools, creating code, integrating tools with Home Assistant, and doing tool testing.",
+      description: "Developed an IoT device to monitor room power usage using ESP32 and PZEM-04T sensors. Integrated with Home Assistant for real-time data visualization, tracking energy, power, voltage, and more. Responsibilities included hardware assembly, coding, system integration with Home Assistant, and thorough testing.",
       date: "2023-03-12T00:00:00.000Z",
       techStack: ["Arduino","ESPHome", "Microcontroller", "Home Assistant"],
-      typeProject: ["Internet of Things"],
+      typeProject: ["Internet of Things (IoT)"],
       linkDocumentation: {
         drive: "https://drive.google.com/drive/folders/1ko4SAL-eyFEGLaw2CKBqK1d80fajAKOJ",
         github: "https://github.com/ilhamsakti27/Power-Monitor.git",
@@ -121,7 +121,7 @@ export const userData = {
       description: "Smart Home Assistant is a home automation system with artificial intelligence. Features include control of lights, TV, automatic doors. Automation can be done through Adafruit IO web or using the help of google assistant. Tech stacks used are ESP32, Adafruit IO, IFTTT, and Google Assistant.",
       date: "2022-06-06T00:00:00.000Z",
       techStack: ["ESP32","Adafruit IO", "IFTTT", "Google Assistant"],
-      typeProject: ["Internet of Things"],
+      typeProject: ["Internet of Things (IoT)"],
       linkDocumentation: {
         drive: "",
         github: "https://github.com/ilhamsakti27/Smart-Home-Assistant.git",
@@ -138,7 +138,7 @@ export const userData = {
       description: "This research develops an automation system for nutrient management and disease detection in hydroponic spinach using the Nutrient Film Technique (NFT) technique and Raspberry Pi as the control center. The system monitors pH, nutrition, temperature, humidity, and detects diseases using a Convolutional Neural Network (CNN) with the MobileNetV2 transfer learning architecture integrated with the Blynk dashboard. The test results showed that the sensor had an accuracy of above 97%, while the MobileNetV2 model achieved 57% accuracy in detecting diseases from spinach images.",
       date: "2024-07-01T00:00:00.000Z",
       techStack: ["Raspberry Pi","Blynk", "Tensorflow", "Convolutional Neural Network"],
-      typeProject: ["Internet of Things", "Artificial Intelligence"],
+      typeProject: ["Internet of Things (IoT)", "Artificial Intelligence (AI)"],
       linkDocumentation: {
         drive: "",
         github: "https://github.com/ilhamsakti27/design-and-implementation-of-an-automatic-nutrition-and-disease-detection-system-for-hydroponic.git",
