@@ -12,7 +12,7 @@
 
     <!-- photo section -->
     <div class="flex flex-col justify-center items-center lg:justify-end">
-      <img src="@/assets/photo.png" alt="my Photo" class="w-3/4" id="photo_about-me">
+      <img src="@/assets/Mas_Ilham-removebg-preview.png" alt="my Photo" class="w-3/4" id="photo_about-me">
       <p class="font-mono text-dark-slate-blue text-lg font-bold mt-2 md:mt-4">{{ formattedJobs }}</p>
     </div>
   </div>
