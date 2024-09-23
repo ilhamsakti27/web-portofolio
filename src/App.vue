@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto px-2">
+  <div class="container mx-auto px-2 bg-light-mint">
     <router-view></router-view>
   </div>
 </template>
@@ -8,9 +8,9 @@
 * {
   box-sizing: border-box;
 }
-body {
+/* body {
   background-color: #E7F6F2;
-}
+} */
 .container {
   overflow-x: hidden;
 }
