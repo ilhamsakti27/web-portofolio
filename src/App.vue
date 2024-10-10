@@ -8,9 +8,9 @@
 * {
   box-sizing: border-box;
 }
-/* body {
+body {
   background-color: #E7F6F2;
-} */
+}
 .container {
   overflow-x: hidden;
 }
